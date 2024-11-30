@@ -1,16 +1,60 @@
 @media (min-width:576px) {
-    
+   
 }
 @media (min-width:768px) {
-    
+    .features-description-second{display: none;}
+    .header-description-second{display: none;}
+    .header-p-second{display: none;}
+    .header-title{max-width: 325px; margin-bottom: 22px; font-weight: 600;}
+    .header-h1{font-size: 46px;}
+    .header-description{display: inline;max-width: 90%;}
+    .header-p{display: inline;font-size: 19px;}
+    .header-container{ height: 210px;}
+    .features-text{width: 380px;}
+    .features-description{display: inline;}
+    .mobile-feature-video{display: flex; width: 668px;height: 432px;}
+
 }
 @media (min-width:992px) {
-    
+    header{height: 930px;}
+    .navbar{padding: 0 40px; height: 156px;}
+    .desktop-menu{display: flex;}
+    .desktop-socialmedia-links{display: flex; width: 150px;}
+    .desktop-logo{display: flex;}
+    .mobile-logo{display: none;}
+    .mobile-btn{display: none;}
+    .header-title{max-width: 400px;margin-bottom: 20px; font-weight:700 ;}
+    .header-h1{font-size: 54px;}
+    .header-description{max-width: 100%;}
+    .header-p{font-size: 21px;}
+    .header-container{ height: 200px; margin-bottom: 24px;}
+    .features-text{width: 400px;}
+    .features-description{font-size: 24px;}
+    .mobile-feature-video{width: 768px; height: 478px;}
 
 }
 @media (min-width:1200px) {
-    
+    .header-title{max-width: 500px;margin-bottom: 18px; font-weight: 800;}
+    .header-h1{font-size: 60px;}
+    .header-description{max-width: 100%;}
+    .header-p{font-size: 21px;}
+    .header-container{ height: 230px; margin-bottom: -10px;}
+    .features-text{width: 450px;}
+    .features-description{font-size: 26px;}
+    .mobile-feature-video{width: 868px; height: 556px;}
+
+
 }
 @media (min-width:1400px) {
+    .header-title{max-width: 550px;margin-bottom: 18px; font-weight: 900;}
+    .header-h1{font-size: 64px;}
+    .header-description{max-width: 100%;}
+    .header-p{font-size: 22px;}
+    .header-container{ height: 240px;  margin-bottom: -15px;}
+    .features-text{width: 500px;}
+    .features-description{font-size: 28px;}
+    .mobile-feature-video{width: 900px; height: 570px;}
     
+    
+
 }
