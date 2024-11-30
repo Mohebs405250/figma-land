@@ -12,10 +12,11 @@
     .header-container{ height: 210px;}
     .features-text{width: 380px;}
     .features-description{display: inline;}
-    .mobile-feature-video{display: flex; width: 668px;height: 432px;}
 
 }
 @media (min-width:992px) {
+    .mobile-feature-video-second{display: none;}
+    .mobile-menu-container{display: none;}
     header{height: 930px;}
     .navbar{padding: 0 40px; height: 156px;}
     .desktop-menu{display: flex;}
@@ -30,7 +31,8 @@
     .header-container{ height: 200px; margin-bottom: 24px;}
     .features-text{width: 400px;}
     .features-description{font-size: 24px;}
-    .mobile-feature-video{width: 768px; height: 478px;}
+    .mobile-feature-video{display: flex; width: 668px;height: 432px;}
+
 
 }
 @media (min-width:1200px) {
