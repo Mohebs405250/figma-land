@@ -226,3 +226,42 @@ header{
     width: 100%;
     height: 100%;
 }
+.organaizes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 30px;
+    
+}
+.organaize{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.organaize-title{
+   margin-top: 50px;
+    text-align: left;
+    font-size: 32px;
+    text-align: center;
+}
+.organaize-description{
+    display: none;
+    text-align: left;
+}
+.organaize-description-second{
+    font-size: 24px;
+    max-width: 200px;
+    text-align: center;
+    margin-top: 20px;
+}
+.organaize-img{
+    width: 343px;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+.organaize-button{
+    margin-top: 60px;
+}

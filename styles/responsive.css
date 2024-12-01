@@ -16,6 +16,12 @@
     .mobile-menu-title{font-size: 28px;}
     .mobile-menu{font-size: 21px; }
     
+    .organaizes{ margin: 0 auto;}
+    .organaize-title{text-align: left; max-width: 200px;}
+    .organaize-description{display: block; max-width: 340px; margin-top: 20px; font-size: 20px;}
+    .organaize-description-second{display: none; }
+    .organaize-img{width: 434px;}
+
 }
 @media (min-width:992px) {
     .mobile-feature-video-second{display: none;}
@@ -35,7 +41,12 @@
     .features-description{font-size: 24px;}
     .mobile-feature-video{display: flex; width: 668px;height: 432px;}
 
-
+    .organaizes{margin: 182px auto;}
+    .organaize{align-items: start;}
+    .organaize-title{margin-top: 22px;}
+    .organaize-description{}
+    .organaize-img{width: 532px;}
+    .organaize-button{ margin-top: 30px;}
 }
 @media (min-width:1200px) {
     .header-title{max-width: 500px;margin-bottom: 18px; font-weight: 800;}
@@ -47,6 +58,45 @@
     .features-description{font-size: 26px;}
     .mobile-feature-video{width: 868px; height: 556px;}
 
+    .organaizes{margin: 266px auto; gap: 40px;}
+    .organaize{}
+    .organaize-title{ max-width: 235px;line-height: 55px;}
+    .organaize-description{  margin-top: 10px;text-align: left;font-size: 20px;max-width: 340px;margin-bottom: 60px;}
+    .organaize-img{width: 572px;}
+    .organaize-button{margin-top: 0; margin-bottom: 100px;}
+
+}
+
+@media (min-width:1400px) {
+    .header-title{max-width: 550px;margin-bottom: 18px; font-weight: 900;}
+    .header-h1{font-size: 64px;}
+    .header-description{max-width: 100%;}
+    .header-p{font-size: 22px;}
+    .header-container{ height: 240px;  margin-bottom: -15px;}
+    .features-text{width: 500px;}
+    .features-description{font-size: 28px;}
+    .mobile-feature-video{width: 900px; height: 570px;}
+    
+    .orgaganaizes{}
+    .organaize{}
+    .organaize-title{}
+    .organaize-description{}
+    .organaize-img{width: 600px;}
+
+}
+
+/* New styles for better responsiveness
+@media (min-width:1600px) {
+    .header-title{max-width: 600px;margin-bottom: 18px; font-weight: 1000;}
+    .header-h1{font-size: 68px;}
+    .header-description{max-width: 100%;}
+    .header-p{font-size: 23px;}
+    .header-container{ height: 250px;  margin-bottom: -20px;}
+    .features-text{width: 550ottom: 100px;}
+
+    
+    
+   
 
 }
 @media (min-width:1400px) {
@@ -59,6 +109,10 @@
     .features-description{font-size: 28px;}
     .mobile-feature-video{width: 900px; height: 570px;}
     
-    
+    .orgaganaizes{}
+    .organaize{}
+    .organaize-title{}
+    .organaize-description{}
+    .organaize-img{width: 600px;}
 
-}
+} */
