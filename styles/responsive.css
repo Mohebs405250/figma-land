@@ -42,6 +42,8 @@
     .partner-img2-2{width: 24%;}
     .img-user1{display: none;}
     .img-user2{display: block;}
+    .Pricing-description-span{display: inline;}
+    .Pricing-model-standard{padding: 83px 40px;}
 
 }
 @media (min-width:992px) {
