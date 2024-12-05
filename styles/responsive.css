@@ -40,6 +40,8 @@
     .partner-img1-1{width: 26%;}
     .partner-img4-4{width: 22%;}
     .partner-img2-2{width: 24%;}
+    .img-user1{display: none;}
+    .img-user2{display: block;}
 
 }
 @media (min-width:992px) {

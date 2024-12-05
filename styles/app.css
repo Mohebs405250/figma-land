@@ -426,12 +426,51 @@ header{
     font-weight: 700;
 }
 
-.testimonials{}
-.testimonials-title{}
-.testimonials-container{}
-.testimonials-button{}
-.testimonials-svg{}
-.testimonials-description{}
-.testimonials-user{}
-.img-user{}
-.user-description{}
+.testimonials{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+}
+.testimonials-title{
+    font-size: 48px;
+    margin-bottom: 80px;
+    font-weight: 100;
+}
+.testimonials-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    width: 80%;
+    gap: 50px;
+}
+.testimonials-svg{
+    width: 150px;
+}
+.testimonials-description{
+    width: 100%;
+    font-size: 23px;
+}
+.testimonials-user{
+    display: flex;
+    width: 186px;
+    gap: 10px;
+    
+}
+.img-user2{
+    display: none;
+}
+.user-description{
+    max-width: 116px;
+    line-height: 23px;
+    font-size: 16px;
+}
+
+.testimonials-button{
+    font-weight: 700;
+    width: 245px;
+}
