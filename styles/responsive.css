@@ -2,6 +2,7 @@
    
 }
 @media (min-width:768px) {
+    .partners-imgs-second{display: none;}
     .features-description-second{display: none;}
     .header-description-second{display: none;}
     .header-p-second{display: none;}
@@ -34,6 +35,12 @@
     .sub-input{width: 60%; margin-bottom: 0;}
     .sub-button{width: 30%;}
     .mobile-content{display: none;}
+    .partners-imgs{display: flex;}
+    .partner-img5{width: 28%;}
+    .partner-img1-1{width: 26%;}
+    .partner-img4-4{width: 22%;}
+    .partner-img2-2{width: 24%;}
+
 }
 @media (min-width:992px) {
     .mobile-feature-video-second{display: none;}
@@ -80,6 +87,11 @@
     .organaize-img{width: 572px;}
     .organaize-button{margin-top: 0; margin-bottom: 100px;}
     .subscribers{margin-top: -150px;}
+    .partner-img5{width: 27%;}
+    .partner-img1-1{width: 25%;}
+    .partner-img4-4{width: 21%;}
+    .partner-img2-2{width: 23%;}
+
 
 
 }
@@ -98,9 +110,8 @@
     .organaize-title{}
     .organaize-description{}
     .organaize-img{width: 600px;}
-
-
     .subscribers{margin-top: -165px;}
+    
 }
 
 /* New styles for better responsiveness
