@@ -265,3 +265,110 @@ header{
 .organaize-button{
     margin-top: 60px;
 }
+
+.subscribers{
+    margin-top: px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 7%;
+}
+.subscribers-container{
+    width: 90%;
+}
+.subscribers-img{
+    width: 100%;
+}
+.subscribers-content{
+    display: flex;
+    align-items: start;
+    width: 90%;
+    padding-left: 20px;
+    justify-content: end;
+    flex-direction: column;
+    margin-bottom: 15px;
+    position: relative;
+}
+.subscribers-titles{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 60%;
+}
+.subscribers-first{
+    display: none;
+    font-size: 14px;
+    color: var(--text);
+    font-weight: 900;
+}
+.subscribers-second{
+    display: none;
+    text-align: left;
+    font-size: 28px;
+    font-weight: 100;
+}
+.subscribers-description{
+    width: 90%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.subscriber-title{
+    color: var(--text);
+    font-size: 19px;
+}
+.subscriber-description{
+    margin-top: -20px;
+    font-size: 20px;
+}
+
+.sub-box{
+    width: 100%;
+    height: 90px;
+    
+}
+.form{
+    width: 100%;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.sub-input{
+    width: 100%;
+    border-radius: 39px;
+    border: none;
+    outline: none;
+    text-align: left;
+    padding-left: 30px;
+    margin-right: 12px;
+    margin-bottom: 20px;
+}
+.sub-button{
+    width: 100%;
+    border-radius: 35px;
+    background-color: var(--Primary);
+    border: none;
+    outline: none;
+}
+.mobile-content{
+    margin-bottom: 70px;
+}
+.mobile-subscribers-first{
+    font-size: 14px;
+    color: var(--text);
+    font-weight: 900;
+}
+.mobile-description1{
+    font-size: 38px;
+}
+.mobile-description2{
+    font-size: 20px;
+}
