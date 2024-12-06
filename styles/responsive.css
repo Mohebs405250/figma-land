@@ -85,6 +85,13 @@
     .subscribers-first{display: inline; }
     .subscribers-second{display: inline; }
     .contact-location{width: 525px;}
+    .footer-container{flex-direction: row; justify-content: center;}
+    .footer-socials{margin: 0;}
+    .footer-menu-container{justify-content: space-between; flex-direction: row;}
+    .footer-li{text-align: left;}
+    .footer-container{height: 500px;}
+    .footer-ul-container{margin-top:0;}
+    .footer-location-container{margin-left: 125px;}
 
 }
 @media (min-width:1200px) {

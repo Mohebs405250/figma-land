@@ -732,10 +732,12 @@ pre{
     position: relative;
 }
 .footer-container{
-    height: 500px;
-    padding-top: 170px;
+    height: 1050px;
     width: 70%;
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     margin: 0 auto;
     color: var(--Light-text);
 
@@ -743,20 +745,24 @@ pre{
 .footer-menu-container{
     width: 60%;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    padding: 73px 0;
+
 }
 .footer-menu-title{
     font-size: 20px;
     line-height: 28px;
     font-weight: 700;
 }
-.footer-ul-container{}
+.footer-ul-container{
+    margin-bottom: 74px;
+}
 .footer-ul{
     line-height: 28px;
-
 }
 .footer-li{
-    text-align: left;
+    text-align: center;
     font-size: 15px;
 
 }
@@ -765,7 +771,7 @@ pre{
 }
 .footer-location-container{
     width: 40%;
-    margin-left: 125px;
+    margin-left: 0px;
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -789,6 +795,7 @@ pre{
     line-height: 27px;
 }
 .footer-socials{
+    margin: 0 auto;
     margin-top: 10px;
     width: 170px;
     height: 80px;
