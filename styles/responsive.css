@@ -46,6 +46,17 @@
     .Pricing-model-standard{padding: 83px 40px;}
     .contact-span{display: inline;}
     .contact-content{width: 450px;}
+    .contacts-data{flex-direction: row;}
+    .contacts-description{text-align: center;}
+    .contacts-svg{text-align: center;}
+    .contact-location{width: 425px;}
+    .contacts-social{ width: 28px;}
+    .contact-location{display: block;}
+    .contact-container{flex-direction: row;}
+    .contact-socials{display: none;}
+    .contact-social{display: none;}
+    .contact-data-container{display: none;}
+
 }
 @media (min-width:992px) {
     .mobile-feature-video-second{display: none;}
@@ -68,12 +79,13 @@
     .organaizes{margin: 182px auto;}
     .organaize{align-items: start;}
     .organaize-title{margin-top: 22px;}
-    .organaize-description{}
     .organaize-img{width: 532px;}
     .organaize-button{ margin-top: 30px;}
     .subscribers{margin-top: -100px; flex-direction: row;}
     .subscribers-first{display: inline; }
     .subscribers-second{display: inline; }
+    .contact-location{width: 525px;}
+
 }
 @media (min-width:1200px) {
     .header-title{max-width: 500px;margin-bottom: 18px; font-weight: 800;}
@@ -86,7 +98,6 @@
     .mobile-feature-video{width: 868px; height: 556px;}
 
     .organaizes{margin: 266px auto; gap: 40px;}
-    .organaize{}
     .organaize-title{ max-width: 235px;line-height: 55px;}
     .organaize-description{  margin-top: 10px;text-align: left;font-size: 20px;max-width: 340px;margin-bottom: 60px;}
     .organaize-img{width: 572px;}
@@ -96,7 +107,8 @@
     .partner-img1-1{width: 25%;}
     .partner-img4-4{width: 21%;}
     .partner-img2-2{width: 23%;}
-
+    .contact-location{width: 625px;}
+    .contacts-social{width: 34px;}
 
 
 }
