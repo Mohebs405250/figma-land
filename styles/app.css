@@ -615,12 +615,55 @@ pre{
     display: none;
 }
 
+.contact-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
 
-.contact-us{}
-.form-container{}
-.contact-us-title{}
-.contact-form{}
-.contact-name{}
-.contact-email{}
-.contact-message{}
-.contact-button{}
+}
+.contact-us{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container{
+    padding: 52px 50px;
+    display: flex;
+    flex-direction: column;
+}
+.contact-us-title{
+    font-size: 20px;
+    line-height: 28px;
+    color: var(--text);
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.contact-input{
+    border-radius: 39px;
+    width: 353px;
+    outline: none;
+    border: none;
+    text-align: left;
+    margin-top: 45px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    padding-left: 20px ;
+}
+.contact-input-border{
+    border: 5px solid #0000;
+}
+.contact-name{
+}
+.contact-email{
+}
+.contact-message{
+    padding-bottom: 41%; ;
+    border-radius: 0;
+    height: 193px;
+}
+.contact-button{
+    margin-top: 45px;
+}
