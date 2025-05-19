@@ -46,10 +46,10 @@
     .Pricing-model-standard{padding: 83px 40px;}
     .contact-span{display: inline;}
     .contact-content{width: 450px;}
-    .contacts-data{flex-direction: row;}
+    .contacts-data{flex-direction: row; justify-content: center;}
     .contacts-description{text-align: center;}
     .contacts-svg{text-align: center;}
-    .contact-location{width: 425px;}
+    .contact-location{width: 425px; }
     .contacts-social{ width: 28px;}
     .contact-location{display: block;}
     .contact-container{flex-direction: row;}
@@ -92,6 +92,7 @@
     .footer-container{height: 500px;}
     .footer-ul-container{margin-top:0;}
     .footer-location-container{margin-left: 125px;}
+    .contact-container{flex-wrap: nowrap;}
 
 }
 @media (min-width:1200px) {

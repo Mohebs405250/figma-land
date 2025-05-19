@@ -18,7 +18,7 @@ header{
     height: 861px;
     background:linear-gradient(rgba(34, 43, 50, 0.5)0%,rgba(34, 43, 50, 0.5)100%) ,url(../assets/image/landing.jpg) center center;
     background-size: cover;
-    clip-path: polygon(0 0,100% 0,100% 85%,0 100%);
+    /* clip-path: polygon(0 0,100% 0,100% 85%,0 100%); */
 }
 pre{
     line-height: 23px;
@@ -619,6 +619,8 @@ pre{
     flex-direction: column;
     align-items: center;
     margin-top: 50px;
+    flex-wrap: wrap;
+    /* background-color: red; */
 
 }
 .contact-us{
